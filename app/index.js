@@ -1,6 +1,3 @@
-import '../src/style.css'
+import setup from '../src/module.js'
 
-let image = document.createElement('img');
-image.src = "../public/image.svg";
-
-document.body.append(image)
+setup();

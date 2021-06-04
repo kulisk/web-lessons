@@ -1,0 +1,29 @@
+{
+  "name": "learn_webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "SET NODE_ENV='production' && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kulisk/learn_webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kulisk/learn_webpack/issues"
+  },
+  "homepage": "https://github.com/kulisk/learn_webpack#readme",
+  "devDependencies": {
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "svg-inline-loader": "^0.8.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  }
+}

@@ -11,4 +11,7 @@ module.exports = {
         template: 'src/index.html'
     })],
     mode: "development",
+    devServer: {
+        contentBase: './dist',
+    },
 };

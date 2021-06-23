@@ -1,4 +1,4 @@
 import "../styles/main.css";
-import {Calculator} from "./calculator.js";
+import {calculator} from "./calculator.js";
 
-Calculator();
+calculator();

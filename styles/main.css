@@ -1,0 +1,8 @@
+#todoList {
+    font-size: 25px;
+}
+
+.remove {
+    margin-left: 10px;
+    cursor: pointer;
+}

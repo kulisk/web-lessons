@@ -71,3 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Heroku link
 https://react-web-lessons.herokuapp.com/
+
+### Netlify link
+https://60dd762aa436a9a14b1a68c4--react-web-lessons.netlify.app/

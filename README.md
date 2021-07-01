@@ -3,7 +3,7 @@
 https://react-web-lessons.herokuapp.com/
 
 ### Netlify link
-https://60dd762aa436a9a14b1a68c4--react-web-lessons.netlify.app/
+https://xenodochial-bartik-508c0f.netlify.app/
 
 # Getting Started with Create React App
 

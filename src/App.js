@@ -8,6 +8,7 @@ import {
 import './styles/main.css';
 
 const Stopwatch = React.lazy(() => import('./components/Stopwatch/Stopwatch'));
+const Clock = React.lazy(() => import('./components/Clock'));
 const Calculator = React.lazy(() => import('./components/Calculator'));
 
 export default function App() {
@@ -24,12 +25,18 @@ export default function App() {
                                 <Link to="/stopwatch">Stopwatch</Link>
                             </li>
                             <li>
+                                <Link to="/clock">Clock</Link>
+                            </li>
+                            <li>
                                 <Link to="/calculator">Calculator</Link>
                             </li>
                         </ul>
                     </nav>
 
                     <Switch>
+                        <Route path="/clock">
+                            <Clock/>
+                        </Route>
                         <Route path="/stopwatch">
                             <Stopwatch/>
                         </Route>

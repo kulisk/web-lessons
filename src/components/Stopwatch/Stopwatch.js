@@ -33,16 +33,16 @@ export default function Stopwatch() {
             <h1>Stopwatch</h1>
             <h2>Vanilla JavaScript Stopwatch</h2>
             <p>
-                <span id="seconds">
+                <span>
                     {Math.floor(time / 100).toString()}
                 </span>:
-                <span id="hundredths">
+                <span>
                     {(time % 100).toString().padStart(2, '0')}
                 </span>
             </p>
-            <button id="button-start" onClick={start}>Start</button>
-            <button id="button-stop" onClick={stop}>Stop</button>
-            <button id="button-reset" onClick={reset}>Reset</button>
+            <button onClick={start}>Start</button>
+            <button onClick={stop}>Stop</button>
+            <button onClick={reset}>Reset</button>
         </div>
     )
 }

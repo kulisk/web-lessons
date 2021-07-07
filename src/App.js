@@ -10,6 +10,9 @@ import './styles/main.css';
 const Stopwatch = React.lazy(() => import('./components/Stopwatch/Stopwatch'));
 const Clock = React.lazy(() => import('./components/Clock'));
 const Calculator = React.lazy(() => import('./components/Calculator'));
+const Todo = React.lazy(() => import('./components/Todo'));
+const Timeline = React.lazy(() => import('./components/Timeline'));
+const Quiz = React.lazy(() => import('./components/Quiz'));
 
 export default function App() {
     return (
@@ -30,10 +33,28 @@ export default function App() {
                             <li>
                                 <Link to="/calculator">Calculator</Link>
                             </li>
+                            <li>
+                                <Link to="/todo">Todo</Link>
+                            </li>
+                            <li>
+                                <Link to="/timeline">Timeline</Link>
+                            </li>
+                            <li>
+                                <Link to="/quiz">Quiz</Link>
+                            </li>
                         </ul>
                     </nav>
 
                     <Switch>
+                        <Route path="/todo">
+                            <Todo/>
+                        </Route>
+                        <Route path="/timeline">
+                            <Timeline/>
+                        </Route>
+                        <Route path="/quiz">
+                            <Quiz/>
+                        </Route>
                         <Route path="/clock">
                             <Clock/>
                         </Route>
